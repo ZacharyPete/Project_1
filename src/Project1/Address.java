@@ -60,4 +60,9 @@ public class Address {
     public void setZip(String zip) {
         this.zip = zip;
     }
+
+    public String toString(){
+        return(number + " " + street + " " + lineTwo + " " + city + " " + state + " " + zip);
+
+    }
 }

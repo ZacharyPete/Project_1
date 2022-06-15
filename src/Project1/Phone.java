@@ -1,6 +1,7 @@
 package Project1;
 import java.util.ArrayList;
 
+
 public class Phone {
     private int areaCode;
     private int prefix;
@@ -43,4 +44,6 @@ public class Phone {
     public void setPrimary(boolean primary) {
         this.primary = primary;
     }
+
+    public String toString(){return(prefix + " " + "(" + areaCode + ")" + number);}
 }

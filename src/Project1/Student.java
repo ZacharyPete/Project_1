@@ -50,4 +50,6 @@ public class Student {
     public void setPhone(ArrayList phone) {
         this.phone = phone;
     }
+
+    public String toString(){return(firstName + " " + lastName);}
 }
